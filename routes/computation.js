@@ -8,7 +8,7 @@ var r = Math.hypot(x,y);
 /* GET users listing. */
 router.get('/', function(req, res, next) {
 
-  res.send(`Math.hypot(${x,y}) applied to ${x,y} is ${r}`);
+  res.send(`Math.hypot(${x},${y}) applied to ${x},${y} is ${r}`);
 });
 
 module.exports = router;
